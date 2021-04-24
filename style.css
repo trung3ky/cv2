@@ -171,7 +171,7 @@ table tr td {
 
 .work {
     position: absolute;
-    top: 530px;
+    top: 510px;
     left: 123px;
     font-family: sans-serif;
     letter-spacing: 1px;
@@ -242,4 +242,10 @@ table tr td {
     border: solid 8px white;
     width: 150px;
     height: 150px;
+}
+
+a {
+    padding-left: 16px;
+    text-decoration: none;
+    color: #ECEEEF;
 }
