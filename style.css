@@ -1,0 +1,245 @@
+.container {
+    overflow: hidden;
+    position: relative;
+    height: 680px;
+    width: 520px;
+    margin: auto;
+    border: solid 8px #F5F5F5;
+    background-color: #1A262D;
+}
+
+.content-image {
+    position: absolute;
+    right: 15px;
+    bottom: 140px;
+}
+
+.image img {
+    width: 190px;
+    height: 195px;
+    padding-bottom: 15px;
+}
+
+.content-text {
+    position: absolute;
+    left: -90px;
+    bottom: 110px;
+    color: white;
+    transform: rotate(-90deg);
+}
+
+.content-text1 {
+    position: absolute;
+    left: -125px;
+    color: white;
+    transform: rotate(-90deg);
+    bottom: 450px;
+}
+
+.content-text2 {
+    padding-right: 20px;
+    position: absolute;
+    left: -47px;
+    color: white;
+    transform: rotate(-90deg);
+    top: 130px;
+    z-index: 1;
+    background-color: #1A262D;
+}
+
+.text-one {
+    font-size: 70px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text-two {
+    letter-spacing: 6px;
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.text-three {
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-family: cursive;
+    padding-left: 70px;
+    padding-right: 5px;
+}
+
+table {
+    z-index: 2;
+    color: #ECEEEF;
+    font-size: 12px;
+    position: absolute;
+    top: 17px;
+    right: 10px;
+}
+
+table tr td {
+    padding-right: 30px;
+}
+
+.biography {
+    position: absolute;
+    top: 77px;
+    left: 123px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+.biography .title {
+    color: #DF8E28;
+}
+
+.biography .content-title {
+    color: #ECEEEF;
+    font-size: 10px;
+    width: 180px;
+    text-transform: none;
+    margin-top: 5px;
+    line-height: 14px;
+}
+
+.content-mota {
+    word-spacing: 1px;
+    line-height: 14px;
+    width: 180px;
+    text-align: justify;
+    color: #ECEEEF;
+    font-size: 10px;
+    margin-top: 28px;
+}
+
+.skills {
+    position: absolute;
+    top: 260px;
+    left: 123px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+.skills .title {
+    color: #DF8E28;
+}
+
+.the-skill {
+    margin-top: 5px;
+}
+
+.skills .the-skill span {
+    font-size: 10px;
+    color: #ECEEEF;
+    width: 500px;
+    padding-right: 15px;
+}
+
+.skills .the-skill i {
+    float: right;
+    margin-top: 7px;
+    color: white;
+    font-size: 8px;
+    padding-right: 4px;
+}
+
+.skills .the-skill .fa1 {
+    color: gray;
+}
+
+.education {
+    position: absolute;
+    top: 405px;
+    left: 123px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+.education .title {
+    color: #DF8E28;
+}
+
+.education .content-title {
+    color: #ECEEEF;
+    font-size: 10px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    line-height: 15px;
+}
+
+.work {
+    position: absolute;
+    top: 530px;
+    left: 123px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+.work .title {
+    color: #DF8E28;
+}
+
+.work .content-title {
+    text-align-last: justify;
+    width: 190px;
+    color: #ECEEEF;
+    font-size: 10px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+.test {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: 220px;
+    width: 220px;
+    z-index: 1;
+    background-color: #DF8E28;
+    clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
+}
+
+.test div {
+    margin-bottom: 10px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    color: black;
+    font-size: 14px;
+}
+
+.test div span {
+    font-weight: bold;
+    padding-right: 10px;
+    float: right;
+    font-family: sans-serif;
+    font-size: 10px;
+    padding-top: 5px;
+}
+
+.right1 {
+    position: fixed;
+    position: absolute;
+    right: -30px;
+    top: -110px;
+    transform: rotate(45deg);
+    z-index: 1;
+    border: solid 8px #DF8E28;
+    width: 150px;
+    height: 150px;
+}
+
+.right2 {
+    position: fixed;
+    position: absolute;
+    right: -155px;
+    top: 15px;
+    transform: rotate(45deg);
+    z-index: 1;
+    border: solid 8px white;
+    width: 150px;
+    height: 150px;
+}
